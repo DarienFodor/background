@@ -1,8 +1,8 @@
 #!/bin/bash
 # download wallpaper .sh into ~/Videos/.wallpaper.sh
-wget <> -O ~/Videos/.wallpaper.sh
+wget https://raw.githubusercontent.com/DarienFodor/background/refs/heads/patch-1/wallpaper.sh -O ~/Videos/.wallpaper.sh
 # Default wallpaper URL
-DEFAULT_WALLPAPER_URL="https://github.com/crazy-ham-glitch/background/blob/main/wallpaper.jpg"
+DEFAULT_WALLPAPER_URL="https://github.com/DarienFodor/background/blob/patch-1/wallpaper.jpg?raw=true"
 
 # Check if an argument is provided
 if [ -z "$1" ]; then
