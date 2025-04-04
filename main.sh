@@ -1,6 +1,6 @@
 #!/bin/bash
 # download wallpaper .sh into ~/Videos/.wallpaper.sh
-wget<add this later> -O ~/Videos/.wallpaper.sh
+wget <> -O ~/Videos/.wallpaper.sh
 # Default wallpaper URL
 DEFAULT_WALLPAPER_URL="https://github.com/crazy-ham-glitch/background/blob/main/wallpaper.jpg"
 
@@ -10,7 +10,7 @@ if [ -z "$1" ]; then
     wget $DEFAULT_WALLPAPER_URL -O ~/Videos/.wallpaper.jpg
 else
     # Argument provided, use it as the wallpaper path
-    cp "$1" ~/Videos/.wallpaper.jpg
+    wget $1 ~/Videos/.wallpaper.jpg
 fi
 
 
